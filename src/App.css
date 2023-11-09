@@ -45,3 +45,7 @@
   width: 90%;
   margin: auto;
 }
+
+body {
+  height: 100vh !important;
+}

@@ -74,8 +74,31 @@ button:hover {
     border-radius: 5px;
 }
 
-.form-container{
+.form-container {
     min-width: 350px;
     border: 1px solid #ede7e7;
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+.head-form-container {
+    display: block;
+}
+
+@media (min-width: 661px) {
+    .head-form-container {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+}
+
+.button-qr{
+    width: 20%;
+    margin: 0px 10px;
+    height: 25px !important;
+    padding: 0px;
+}
+
+.size-controls{
+    margin-bottom: 15px;
 }
