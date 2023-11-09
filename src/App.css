@@ -40,3 +40,8 @@
 .app-container{
   margin-top: 50px !important;
 }
+
+.qr-button{
+  width: 90%;
+  margin: auto;
+}
